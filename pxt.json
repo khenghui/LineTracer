@@ -1,23 +1,20 @@
 {
-    "name": "Untitled",
-    "description": "",
+    "name": "Line Sensor",
+    "description": "An extension for reading line sensor values",
+    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
-        "README.md",
-        "custom.ts",
-        "main.py"
+        "README.md"
     ],
     "testFiles": [
         "test.ts"
     ],
+    "public": true,
     "targetVersions": {
-        "target": "6.0.28",
+        "target": "6.0.17",
         "targetId": "microbit"
     },
     "supportedTargets": [
