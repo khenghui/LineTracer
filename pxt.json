@@ -1,20 +1,23 @@
 {
-    "name": "Line Sensor",
-    "description": "An extension for reading line sensor values",
-    "license": "MIT",
+    "name": "LineSensor",
+    "description": "Use this line sensor up to 5 in row sensor",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
     },
     "files": [
+        "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "custom.ts",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
     "targetVersions": {
-        "target": "6.0.17",
+        "target": "6.0.28",
         "targetId": "microbit"
     },
     "supportedTargets": [
